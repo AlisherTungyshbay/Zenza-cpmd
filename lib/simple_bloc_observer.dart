@@ -1,9 +1,10 @@
 import 'dart:developer';
 import 'package:bloc/bloc.dart';
+import 'package:zenza/screens/home/models/cart_model.dart';
 
 class SimpleBlocObserver extends BlocObserver {
   @override
-	void onCreate(BlocBase bloc) {
+  void onCreate(BlocBase bloc) {
     super.onCreate(bloc);
     log('onCreate -- bloc: ${bloc.runtimeType}');
   }

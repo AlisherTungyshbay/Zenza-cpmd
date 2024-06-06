@@ -4,7 +4,6 @@ import 'package:zenza/blocs/authentication_bloc/authentication_bloc.dart';
 import 'package:zenza/screens/auth/blocs/sing_in_bloc/sign_in_bloc.dart';
 import 'package:zenza/screens/home/blocs/get_pizza_bloc/get_pizza_bloc.dart';
 import 'package:pizza_repository/pizza_repository.dart';
-
 import 'screens/auth/views/welcome_screen.dart';
 import 'screens/home/views/home_screen.dart';
 
